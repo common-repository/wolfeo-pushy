@@ -1,0 +1,9 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .wp-admin select#wolf_campaigns {margin-right:10px;width:200px;height:30px!important}
+ .wolf_float_send {display:inline-block}
+ #wolf_api_id {margin-right:10px;width:475px;padding:5px 10px;font-size:12px}
+
+.wp-admin .jquery-multiselect select {max-height:225px;}

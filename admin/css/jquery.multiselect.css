@@ -1,0 +1,24 @@
+.jquery-multiselect{
+    position: relative;
+}
+.jquery-multiselect .options-not-selected{
+    width: 48%;
+}
+.jquery-multiselect .options-selected{
+    position: absolute;
+    width: 48%;
+    right: 0px;
+}
+
+.jquery-multiselect select {
+	padding:10px;
+}
+.jquery-multiselect select option {
+	padding:5px;border-radius:3px;color:#333;margin:5px;background:white;border:1px solid #dedede;
+}
+.jquery-multiselect select.options-not-selected option:after {
+	color:#0085ba;content:"+";float:right;padding-right:2px;
+}
+.jquery-multiselect select.options-selected option:after {
+	color:#333;content:"-";float:right;padding-right:2px;
+}
